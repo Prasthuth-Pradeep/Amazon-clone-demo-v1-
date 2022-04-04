@@ -1,0 +1,54 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    padding: 20px;
+    background-color: #ffffff;
+    .card-title-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      .card-title1,
+      .card-title2 {
+        color: black;
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+      .product {
+        display: flex;
+        flex-direction: column;
+        .product-image {
+          cursor: pointer;
+          height: 100px;
+          width: 127px;
+          margin-bottom: 3px;
+        }
+        .product-text {
+          font-size: 12px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .go-link {
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 12px;
+      color: #70aeb9;
+      font-weight: 700;
+    }
+    .go-link:hover {
+      text-decoration: underline;
+      color: #c7511f;
+    }
+  }
+}
